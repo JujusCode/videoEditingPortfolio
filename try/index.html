@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justine's Video Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">Justine's Portfolio</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#works">My Works</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-content animate-child">
+        <h1 class="home-title">Turning Clips into Captivating Stories</h1>
+        <p class="home-subtitle">
+          Professional video editor crafting engaging content for social media
+          and beyond
+        </p>
+        <a href="#works" class="cta-button">View My Work</a>
+      </div>
+      <div class="home-image animate-child">
+        <div class="image-glow"></div>
+        <img src="face.png" alt="Justine Bardinas" class="profile-image" />
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2 class="section-title animate-child">About Me</h2>
+      <div class="about-content animate-child">
+        <p>
+          Hi! I'm Justine, a passionate freelance video editor with a keen eye
+          for storytelling through visuals. I specialize in creating engaging
+          content that captures attention and drives results, particularly for
+          short-form videos on platforms like TikTok, Instagram Reels, and
+          YouTube Shorts.
+        </p>
+        <p>
+          With expertise in cutting-edge editing tools and a deep understanding
+          of social media trends, I help creators, brands, and businesses
+          transform their raw footage into compelling narratives that resonate
+          with their audience.
+        </p>
+      </div>
+      <div class="skills-grid animate-child">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-video"></i></div>
+          <h3>CapCut Pro</h3>
+          <p>Advanced mobile and desktop video editing</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-palette"></i></div>
+          <h3>Canva Pro</h3>
+          <p>Professional graphic design and templates</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-film"></i></div>
+          <h3>Premiere Pro</h3>
+          <p>Industry-standard video editing software</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Social Media</h3>
+          <p>Platform-specific content optimization</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Works Section -->
+    <section id="works">
+      <h2 class="section-title animate-child">My Works</h2>
+      <div class="works-grid animate-child">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <video src="final siguro.mp4" loop controls>
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+              <div class="play-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <video src="to post .mp4" controls loop>
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+              <div class="play-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <video src="TO POST CLEAN.mp4" controls loop>
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+              <div class="play-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+      <h2 class="section-title animate-child">Contact Me</h2>
+      <div class="contact-grid animate-child">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <h3>Email</h3>
+          <a href="mailto:jjbards99@gmail.com">jjbards99@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+          <h3>Instagram</h3>
+          <a href="https://instagram.com/yourhandle" target="_blank"
+            >@yourhandle</a
+          >
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>LinkedIn</h3>
+          <a href="www.linkedin.com/in/justinebardinas" target="_blank"
+            >LinkedIn.com/justinebardinas</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Justine Bardinas – All Rights Reserved</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="vidport.js"></script>
+  </body>
+</html>
